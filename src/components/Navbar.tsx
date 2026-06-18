@@ -95,9 +95,9 @@ export default function Navbar({
           >
             {/* Logo Image */}
             <div className="flex items-center gap-2">
-              <img src={logoRdv} alt="PrendreUnRDV Logo" className="h-10 w-auto" />
+              <img src={logoRdv} alt="PrendreUnRDV Logo" className="h-14 w-auto" />
               <div>
-                <span className={`block text-sm font-semibold tracking-tight sm:text-base ${textClass}`}>PrendreUnRDV</span>
+                <span className={`block text-base font-bold tracking-tight sm:text-lg ${textClass}`}>PrendreUnRDV</span>
                 <span className={`block text-[10px] font-mono tracking-wider uppercase ${subtextClass}`}>Espace Réservation</span>
               </div>
             </div>

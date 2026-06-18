@@ -80,10 +80,10 @@ Pour tester rapidement l'application en mode local ou de démonstration, deux pr
 
 * **Compte Client de Test** :
   - **Email** : `jean.dupont@gmail.com`
-  - **Mot de passe** : `password123`
+  - **Mot de passe** : `Client2026!`
 * **Compte Administrateur de Test** :
   - **Email** : `admin@rdv.fr`
-  - **Mot de passe** : `admin`
+  - **Mot de passe** : `Admin2026!`
 
 ---
 

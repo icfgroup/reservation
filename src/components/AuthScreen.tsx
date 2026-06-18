@@ -175,7 +175,7 @@ export default function AuthScreen({ onAuthSuccess }: AuthScreenProps) {
   // Shortcut login helper for grading ease
   const handleShortcutLogin = (role: "client" | "admin") => {
     const targetEmail = role === "admin" ? "admin@rdv.fr" : "jean.dupont@gmail.com";
-    const targetPassword = role === "admin" ? "admin" : "password123";
+    const targetPassword = role === "admin" ? "Admin2026!" : "Client2026!";
 
     setEmail(targetEmail);
     setPassword(targetPassword);
@@ -186,6 +186,8 @@ export default function AuthScreen({ onAuthSuccess }: AuthScreenProps) {
       setTimeout(() => {
         onAuthSuccess(role);
       }, 800);
+    } else {
+      setError(res.message);
     }
   };
 
