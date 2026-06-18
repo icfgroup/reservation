@@ -1,0 +1,6 @@
+{
+  "name": "Plateforme de Réservation de Rendez-vous",
+  "description": "Une suite complète de réservation en ligne pour clients et administrateurs, intégrant la gestion des disponibilités, des notifications automatisées et des rapports statistiques.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
